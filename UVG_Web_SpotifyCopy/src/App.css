@@ -1,18 +1,3 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +7,10 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .arriba {
@@ -57,14 +46,45 @@ button {
   background-color: white;
   width: 82%;
   height: 90vh;
-  overflow: scroll;
 }
 
 .navbar-iz-abajo {
   overflow: scroll;
   width: 100%;
-  height: 45%;
+  height: 50%;
   overflow-x:hidden;
+  align-items: flex-start;
+}
+
+.navbar-iz-abajo > p {
+  margin: 0;
+  color: #b3b3b3;
+  align-items: flex-start;
+  width: 100%;
+  align-self: flex-start;
+  text-align: left;
+  padding: 5px 25px;
+  font-size: 1rem;
+  
+}
+
+.navbar-iz-abajo > p:hover {
+  color: white;
+}
+
+.navbar-iz-arriba {
+  height: 45%;
+}
+
+.navbar-iz-arriba > div > a > p{
+  margin: 10px;
+  text-align: left;
+  color: #b3b3b3;
+  font-size: 1rem;
+}
+
+.navbar-iz-arriba > div > a > p:hover {
+  color: white;
 }
 
 .app-derecha-top-bar {
@@ -72,4 +92,111 @@ button {
   flex-direction: row;
   justify-content: space-between;
   padding: 16px 32px;
+  background-color: rgb(160, 24, 144);
+}
+
+.btn-regreso {
+  background-color: rgba(0, 0, 0, 0.6);
+  border-color: rgba(0, 0, 0, 0);
+  margin-right: 16px;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  color: white;
+  border: 0;
+  padding: 0;
+}
+
+.btn-regreso > svg {
+  fill: white;
+}
+
+.btn-upgrade {
+  background-color: transparent;
+  border-radius: 500px;
+  font-size: 0.875rem;
+  color: white;
+  border-color: #878787;
+  padding: 7px 15px;
+}
+
+.btn-upgrade:hover {
+  background-color: black;
+}
+
+.btn-user {
+  background-color: black;
+  color: white;
+  margin-left: 16px;
+  font-size: 0.875rem;
+  width: 174px;
+  height: 29px;
+  padding: 0;
+  border-radius: 500px;
+  align-items: center;
+}
+
+.btn-user > img {
+  width: 28px;
+  height: 28px;
+  border-radius: 50px;
+}
+
+.logo {
+  width: 130px; 
+  margin: 25px;
+}
+
+.app-derecha-sec-titulo {
+  width: 100%;
+  height: 250px;
+}
+
+.app-derecha-todo {
+  background-color: rgb(160, 24, 144);
+  width: 100%;
+  height: 100%;
+  overflow: scroll;
+  overflow-x:hidden;
+}
+
+.reproductor {
+  display: flex;
+  display: row;
+  align-items: stretch;
+  justify-content: space-between;
+  background-color: #181818;
+  border-top-color: white;
+}
+
+.rep-iz {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+
+.rep-iz > img {
+  width: 54px;
+  height: 54px;
+  margin-left: 16px
+}
+
+.rep-info {
+  display: flex;
+  flex-direction: column;
+  padding-left: 16px;
+  height: 100%;
+}
+
+.rep-info > p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.rep-iz > button {
+  background-color: transparent;
+  border-color: transparent;
+  color: white;
+  fill: white;
 }
