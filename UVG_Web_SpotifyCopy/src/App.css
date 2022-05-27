@@ -63,11 +63,15 @@ body {
 
 
 .navbar-iz-arriba {
-  height: 45%;
   display: flex;
   flex-direction: column;
-  height: 47%;
+  height: 50%;
   align-content: space-between;
+  margin: 0;
+}
+
+.navbar-iz-arriba-mid {
+  margin-bottom: 20px;
 }
 
 .navbar-iz-arriba-a {
@@ -89,7 +93,8 @@ body {
 }
 
 .navbar-iz-arriba > div > a > p{
-  margin: 11px;
+  margin: 10px;
+  margin-left: 18px;
   text-align: left;
   color: #b3b3b3;
   font-size: 0.85rem;
@@ -180,6 +185,7 @@ body {
   color: white;
   margin-left: 24px;
   font-size: 0.875rem;
+  font-weight: bold;
   width: 174px;
   height: 30px;
   padding: 0;
@@ -422,8 +428,10 @@ body {
 .rep-info {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding-left: 16px;
   height: 100%;
+  margin-right: 15px;
 }
 
 .rep-info > p {
@@ -443,6 +451,8 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
+  font-size: 12px;
+  color: #878787;
 }
 
 .btn-player-control {
@@ -465,6 +475,10 @@ body {
   justify-content: center;
 }
 
+.player-control > .btn-player-control {
+  margin: 0px 10px;
+}
+
 .btn-play-control > svg {
   width: 12px;
   height: 12px; 
@@ -477,14 +491,29 @@ body {
   margin: 10px 10px;
 }
 
+.rep-mid {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
 .rep-der {
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 
 .rep-der > div {
-  width: 50px;
-  height: 5px;
+  width: 90px;
+  height: 4px;
+  margin-right: 18px;
+  margin-left: 8px;
   background-color: white;
   border-radius: 2px;
+}
+
+.rep-der > div:hover {
+  background-color: #1ed760;
 }

@@ -47,7 +47,7 @@ function App() {
                   </svg>
                 </a>
               </div>
-              <div>
+              <div className="navbar-iz-arriba-mid">
                 <a className="navbar-iz-arriba-a">
                   <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 jgfuCe home-icon" viewBox="0 0 24 24">
                     <path d="M12.5 3.247a1 1 0 00-1 0L4 7.577V20h4.5v-6a1 1 0 011-1h5a1 1 0 011 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 013 0l7.5 4.33a2 2 0 011 1.732V21a1 1 0 01-1 1h-6.5a1 1 0 01-1-1v-6h-3v6a1 1 0 01-1 1H3a1 1 0 01-1-1V7.577a2 2 0 011-1.732l7.5-4.33z"></path>
@@ -89,20 +89,22 @@ function App() {
             <hr></hr>
             <div className="navbar-iz-abajo">
               <p>love</p>
+              <p>IGM Dawn & Dusk CHILL Cow...</p>
+              <p>IGM Dawn & Dusk HYPE Cow...</p>
               <p>Kooji</p>
               <p>Ex favs</p>
               <p>Carne</p>
               <p>⭐ Vocaloid ⭐</p>
-              <p>✨Solo Anime</p>
-              <p>Real Alt</p>
-              <p>Only English</p>
-              <p>Buenas</p>
+              <p>✨Solo Anime🎴</p>
+              <p>💫Real Alt🌵</p>
+              <p>💫☀Only English☀💫</p>
+              <p>✨✌🏽Buenas✌🏽✨</p>
               <p>Bare A Pop Opera</p>
-              <p>Asian stuff</p>
-              <p>Canciones N/M</p>
+              <p>✨🇯🇵Asian stuff🇰🇷✨</p>
+              <p>👽Canciones N/M👽</p>
               <p>La hora sad :c</p>
-              <p>Instrumental</p>
-              <p>Favs</p>
+              <p>🌸Instrumental</p>
+              <p>✨💕Favs💕✨</p>
             </div>
           </nav>
           <div className="app-derecha">
