@@ -326,6 +326,62 @@ body {
   margin-left: 35px;
 }
 
+.tres-puntos2 {
+  fill: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  width: 20px;
+  height: 20px;
+}
+
+
+.app-derecha-canciones {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+
+.cancion {
+  display: grid;
+  width: 100%;
+  margin: 0;
+  margin-left: 100px;
+  padding: 10px 20px;
+  grid-template-columns: 16px 37% 25% 10% 5% 5% 5%;
+  column-gap: 5px;
+  font-size: 14px;
+  border-radius: 3px;
+  align-items: center;
+}
+
+.cancion:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.verde {
+  fill: #1ed760;
+}
+
+.foto-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.foto-info > div > h3 {
+  margin: 0;
+}
+
+.foto-info > div > p {
+  margin: 0;
+}
+
+.fotita-album {
+  width: 40;
+  height: 40px;
+  margin-right: 16px;
+}
 
 
 .reproductor {

@@ -5,6 +5,26 @@ import './App.css'
 function App() {
   const [showPlaylist, setShowplaylist] = useState(true)
 
+  const puntitos = () => {
+    return(
+      <div>
+        <div className="tres-puntos2">
+          <svg role="img" height="32" width="32" viewBox="0 0 24 24" class="Svg-sc-1bi12j5-0 jgfuCe">
+            <path d="M4.5 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm15 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-7.5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+          </svg>
+        </div>
+      </div>
+    )
+  }
+
+  const corazon = () => {
+    return (
+      <svg role="img" height="16" width="16" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 jgfuCe">
+        <path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path>
+      </svg>
+    )
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -132,6 +152,159 @@ function App() {
                     </svg>
                   </div>
                 </div>
+                <div className="app-derecha-canciones">
+                  <hr></hr>
+                  <span className="cancion">
+                    <div>1</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/1Scripted.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Pieces</h3>
+                        <p className="opaque">Icon For Hire</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Scripted</div>
+                    <div className="opaque">Oct 1, 2017</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:54</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>2</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/2cactus.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>CACTUS</h3>
+                        <p className="opaque">A.C.E</p>
+                      </div>
+                    </span>
+                    <div className="opaque">CACTUS</div>
+                    <div className="opaque">Nov 24, 2017</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:21</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>3</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/3Loveyourself.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Pied Piper</h3>
+                        <p className="opaque">BTS</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Love Yourself 承 'Her'</div>
+                    <div className="opaque">Jan 13, 2018</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">4:05</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>4</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/4deadrose.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>deadroses</h3>
+                        <p className="opaque">blackbear</p>
+                      </div>
+                    </span>
+                    <div className="opaque">deadroses</div>
+                    <div className="opaque">Jul 28, 2018</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:04</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>5</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/5bunka.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Nonsense Bungaku</h3>
+                        <p className="opaque">Eve</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Bunka</div>
+                    <div className="opaque">Sep 26, 2018</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:23</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>6</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/6glory.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Cautionary Tales</h3>
+                        <p className="opaque">Jon Bellion</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Glory Sound Prep</div>
+                    <div className="opaque">Jan 31, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:47</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>7</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/s.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Youth (feat.Khalid)</h3>
+                        <p className="opaque">Shawn Mendes, Khalid</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Shawn Mendes</div>
+                    <div className="opaque">Feb 3, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:10</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>8</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/8adventure.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>La Lune (feat. Dan Smith)</h3>
+                        <p className="opaque">Madeon, Dan Smith</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Adventure(Deluxe)</div>
+                    <div className="opaque">Mar 2, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:39</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>9</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/9Otogi.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Last Dance</h3>
+                        <p className="opaque">eve</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Otogi</div>
+                    <div className="opaque">Mar 7, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">4:00</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>10</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/10moss.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>The Moss</h3>
+                        <p className="opaque">Cosmo Seldrake</p>
+                      </div>
+                    </span>
+                    <div className="opaque">The Moss</div>
+                    <div className="opaque">May 29, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">4:02</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                </div>
               </div>
             </div>
           </div>
@@ -143,10 +316,8 @@ function App() {
               <p>Nonsense Bungaku</p>
               <p>Eve</p>
             </div>
-            <button>
-              <svg role="img" height="16" width="16" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 jgfuCe">
-                <path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path>
-              </svg>
+            <button className="verde">
+              {corazon()}
             </button>
             <button>
               <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
