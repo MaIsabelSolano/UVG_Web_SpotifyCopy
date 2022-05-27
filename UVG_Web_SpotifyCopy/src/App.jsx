@@ -325,6 +325,81 @@ function App() {
                     <div className="opaque">4:02</div>
                     <div>{puntitos()}</div>
                   </span>
+                  <span className="cancion">
+                    <div>11</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/11undercover.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Under Cover</h3>
+                        <p className="opaque">A.C.E</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Under Cover</div>
+                    <div className="opaque">May 29, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:46</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>12</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/12lost.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>ロストワンの号哭</h3>
+                        <p className="opaque">Neru</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Kagaminext feat. 鏡音リ...</div>
+                    <div className="opaque">May 29, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:34</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>13</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/13stop.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Stop The Rain</h3>
+                        <p className="opaque">Day 6</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Stop The Rain</div>
+                    <div className="opaque">Jul 14, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">4:40</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>14</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/14sex.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>sex</h3>
+                        <p className="opaque">EDEN</p>
+                      </div>
+                    </span>
+                    <div className="opaque">I think you think too much of me</div>
+                    <div className="opaque">Aug 30, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">3:38</div>
+                    <div>{puntitos()}</div>
+                  </span>
+                  <span className="cancion">
+                    <div>15</div>
+                    <span className="foto-info">
+                      <img src="/src/Albumes/15beon.jpg" className="fotita-album"></img>
+                      <div>
+                        <h3>Every Day</h3>
+                        <p className="opaque">bo en</p>
+                      </div>
+                    </span>
+                    <div className="opaque">Pale Machine</div>
+                    <div className="opaque">Sep 4, 2019</div>
+                    <div className="verde">{corazon()}</div>
+                    <div className="opaque">2:32</div>
+                    <div>{puntitos()}</div>
+                  </span>
                 </div>
               </div>
             </div>
