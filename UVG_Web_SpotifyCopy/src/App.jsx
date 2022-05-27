@@ -19,18 +19,43 @@ function App() {
                   </svg>
                 </a>
               </div>
-              
               <div>
-                <a>
-                  
+                <a className="navbar-iz-arriba-a">
+                  <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 jgfuCe home-icon" viewBox="0 0 24 24">
+                    <path d="M12.5 3.247a1 1 0 00-1 0L4 7.577V20h4.5v-6a1 1 0 011-1h5a1 1 0 011 1v6H20V7.577l-7.5-4.33zm-2-1.732a3 3 0 013 0l7.5 4.33a2 2 0 011 1.732V21a1 1 0 01-1 1h-6.5a1 1 0 01-1-1v-6h-3v6a1 1 0 01-1 1H3a1 1 0 01-1-1V7.577a2 2 0 011-1.732l7.5-4.33z"></path>
+                  </svg>
                   <p>Home</p>
                 </a>
-                <a><p>Search</p></a>
-                <a><p>Your Library</p></a>
+                <a className="navbar-iz-arriba-a">
+                  <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 jgfuCe search-icon" viewBox="0 0 24 24">
+                    <path d="M10.533 1.279c-5.18 0-9.407 4.14-9.407 9.279s4.226 9.279 9.407 9.279c2.234 0 4.29-.77 5.907-2.058l4.353 4.353a1 1 0 101.414-1.414l-4.344-4.344a9.157 9.157 0 002.077-5.816c0-5.14-4.226-9.28-9.407-9.28zm-7.407 9.279c0-4.006 3.302-7.28 7.407-7.28s7.407 3.274 7.407 7.28-3.302 7.279-7.407 7.279-7.407-3.273-7.407-7.28z"></path>
+                  </svg>
+                  <p>Search</p>
+                </a>
+                <a className="navbar-iz-arriba-a">
+                  <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 jgfuCe collection-icon" viewBox="0 0 24 24">
+                    <path d="M14.5 2.134a1 1 0 011 0l6 3.464a1 1 0 01.5.866V21a1 1 0 01-1 1h-6a1 1 0 01-1-1V3a1 1 0 01.5-.866zM16 4.732V20h4V7.041l-4-2.309zM3 22a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1zm6 0a1 1 0 01-1-1V3a1 1 0 012 0v18a1 1 0 01-1 1z"></path>
+                  </svg>
+                  <p>Your Library</p>
+                </a>
               </div>
               <div>
-                <a><p>Create Playlist</p></a>
-                <a><p>Liked Songs</p></a>
+                <a className="navbar-iz-arriba-a">
+                  <div className="cuadrito-pl">
+                    <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 jgfuCe">
+                      <path d="M15.25 8a.75.75 0 01-.75.75H8.75v5.75a.75.75 0 01-1.5 0V8.75H1.5a.75.75 0 010-1.5h5.75V1.5a.75.75 0 011.5 0v5.75h5.75a.75.75 0 01.75.75z"></path>
+                    </svg>
+                  </div>
+                  <p>Create Playlist</p>
+                </a>
+                <a className="navbar-iz-arriba-a">
+                  <div className="cuadrito-likes">
+                    <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 jgfuCe">
+                      <path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path>
+                      </svg>
+                  </div>
+                  <p>Liked Songs</p>
+                </a>
               </div>
             </div>
             <hr></hr>
@@ -80,6 +105,24 @@ function App() {
             </div>
             <div className="app-derecha-todo">
               <div className="app-derecha-sec-titulo">
+                <div className="cover">
+                  <img src="/src/portada.png" className="cover-playlist"></img>
+                </div>
+                <div className="app-derecha-sec-titulo-infoplaylist">
+                  <p>PLAYLIST</p>
+                  <h1 className="titulo-favs">✨💕Favs💕✨</h1>
+                  <p> Me encantan ♥</p>
+                  <div>
+                    <p>Michy_solano27</p>
+                    <p> • 42 songs, </p>
+                    <p>2 hr 38 min</p>
+                  </div>
+                </div>
+              </div>
+              <div className="app-derecha-rep">
+
+              </div>
+              <div className="app-derecha-canciones">
               </div>
             </div>
           </div>
@@ -97,10 +140,9 @@ function App() {
               </svg>
             </button>
             <button>
-            <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
-              
-              <path d="M1 3v9h14V3H1zm0-1h14a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" fill-rule="nonzero"></path><path d="M10 8h4v3h-4z"></path>
-            </svg>
+              <svg width="16" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M1 3v9h14V3H1zm0-1h14a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1H1a1 1 0 0 1-1-1V3a1 1 0 0 1 1-1z" fill-rule="nonzero"></path><path d="M10 8h4v3h-4z"></path>
+              </svg>
             </button>
           </div>
           <div className="rep-mid"></div>
