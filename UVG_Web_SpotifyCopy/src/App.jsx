@@ -121,8 +121,16 @@ function App() {
               </div>
               <div className="app-derecha-parte-abajo">
                 <div className="app-derecha-rep">
-                </div>
-                <div className="app-derecha-canciones">
+                  <div className="play">
+                    <span aria-hidden="true" class="IconWrapper__Wrapper-sc-1hf1hjl-0 dZGDpi">
+                      <svg role="img" height="28" width="28" viewBox="0 0 24 24" class="Svg-sc-1bi12j5-0 jgfuCe"><path d="M7.05 3.606l13.49 7.788a.7.7 0 010 1.212L7.05 20.394A.7.7 0 016 19.788V4.212a.7.7 0 011.05-.606z"></path></svg>
+                    </span>
+                  </div>
+                  <div className="tres-puntos">
+                    <svg role="img" height="32" width="32" viewBox="0 0 24 24" class="Svg-sc-1bi12j5-0 jgfuCe">
+                      <path d="M4.5 13.5a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm15 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3zm-7.5 0a1.5 1.5 0 100-3 1.5 1.5 0 000 3z"></path>
+                    </svg>
+                  </div>
                 </div>
               </div>
             </div>

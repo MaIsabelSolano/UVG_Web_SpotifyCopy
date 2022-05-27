@@ -35,6 +35,15 @@ body {
   align-items: flex-start;
 }
 
+.navbar-iz-abajo::-webkit-scrollbar {
+  background-color: transparent;
+  width: 13px;
+}
+
+.navbar-iz-abajo::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .navbar-iz-abajo > p {
   margin: 0;
   color: #b3b3b3;
@@ -208,6 +217,16 @@ body {
   overflow-x:hidden;
 }
 
+.app-derecha-todo::-webkit-scrollbar {
+  background-color: transparent;
+  width: 15px;
+}
+
+.app-derecha-todo::-webkit-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.3);
+
+}
+
 .app-derecha-sec-titulo {
   width: 100%;
   height: 240px;
@@ -284,15 +303,28 @@ body {
 .app-derecha-rep {
   width: 100%;
   height: 90px;
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  padding: 10px 33px;
+  align-items: center;
 }
 
-.app-derecha-canciones {
-  width: 100%;
-  height: 1000px;
+.play {
+  width: 56px;
+  height: 56px;
+  background-color: #1ed760;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
 }
 
-
-
+.tres-puntos {
+  fill: rgba(255, 255, 255, 0.6);
+  margin: 0;
+  margin-left: 35px;
+}
 
 
 
