@@ -92,7 +92,7 @@ function App() {
                 </button>
               </div>
               <div>{() => {showPlaylist? <p>Favs</p>:<p></p>}}</div>
-              <div>
+              <div className="btn-top-derecha">
                 <button className="btn-upgrade">Upgrade</button>
                 <button className="btn-user">
                   <img src="/src/cheems.jpg"></img>
@@ -109,20 +109,21 @@ function App() {
                   <img src="/src/portada.png" className="cover-playlist"></img>
                 </div>
                 <div className="app-derecha-sec-titulo-infoplaylist">
-                  <p>PLAYLIST</p>
+                  <p className="playlist">PLAYLIST</p>
                   <h1 className="titulo-favs">✨💕Favs💕✨</h1>
-                  <p> Me encantan ♥</p>
-                  <div>
-                    <p>Michy_solano27</p>
+                  <p className="me-encantan opaque"> Me encantan♥</p>
+                  <div className="infoplaylist-abajo">
+                    <p className="bold">Michy_solano27</p>
                     <p> • 42 songs, </p>
-                    <p>2 hr 38 min</p>
+                    <p className="opaque">2 hr 38 min</p>
                   </div>
                 </div>
               </div>
-              <div className="app-derecha-rep">
-
-              </div>
-              <div className="app-derecha-canciones">
+              <div className="app-derecha-parte-abajo">
+                <div className="app-derecha-rep">
+                </div>
+                <div className="app-derecha-canciones">
+                </div>
               </div>
             </div>
           </div>
