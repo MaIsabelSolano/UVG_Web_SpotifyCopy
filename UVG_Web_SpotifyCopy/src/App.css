@@ -82,6 +82,9 @@ body {
   background-color: #202020;
   margin: 0;
   padding: 0;
+  width: 85%;
+  margin-left: 20px;
+  opacity: 0.2;
   
 }
 
@@ -340,7 +343,10 @@ body {
   align-items: center;
 }
 
-
+.app-derecha-canciones > hr {
+  width: 95%;
+  opacity: 0.15;
+}
 
 .cancion {
   display: grid;
@@ -348,7 +354,7 @@ body {
   margin: 0;
   margin-left: 100px;
   padding: 10px 20px;
-  grid-template-columns: 16px 37% 25% 10% 5% 5% 5%;
+  grid-template-columns: 16px 37% 25% 15% 3% 3% 3%;
   column-gap: 5px;
   font-size: 14px;
   border-radius: 3px;
@@ -361,6 +367,11 @@ body {
 
 .verde {
   fill: #1ed760;
+}
+
+.relojito {
+  fill: white;
+  opacity: 0.8;
 }
 
 .foto-info {
@@ -403,8 +414,8 @@ body {
 }
 
 .rep-iz > img {
-  width: 54px;
-  height: 54px;
+  width: 56px;
+  height: 56px;
   margin-left: 16px
 }
 
@@ -427,3 +438,53 @@ body {
   fill: white;
 }
 
+.player-control {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-player-control {
+  background-color: transparent;
+  border: none;
+  fill: #878787;
+}
+
+.btn-player-control:hover {
+  fill: white;
+}
+
+.btn-play-control {
+  background-color: white;
+  border-radius: 50px;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-play-control > svg {
+  width: 12px;
+  height: 12px; 
+}
+
+.barraplay {
+  width: 65vh;
+  max-width: 65vh;
+  min-width: 10vh;
+  margin: 10px 10px;
+}
+
+.rep-der {
+  display: flex;
+  flex-direction: row;
+}
+
+.rep-der > div {
+  width: 50px;
+  height: 5px;
+  background-color: white;
+  border-radius: 2px;
+}
