@@ -25,6 +25,7 @@ Esta es una captura de pantalla de la página original y cómo debería verse el
 
 
 ## Tecnologías utilizadas
+- Javascript
 - React
 - Vite
 - Eslint
