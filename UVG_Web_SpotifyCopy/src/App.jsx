@@ -1,10 +1,6 @@
-import { useState } from 'react'
-import logo from './logo.svg'
 import './App.css'
 
 function App() {
-  const [showPlaylist, setShowplaylist] = useState(true)
-
   const puntitos = () => {
     return(
       <div>
@@ -80,7 +76,7 @@ function App() {
                   <div className="cuadrito-likes">
                     <svg role="img" height="12" width="12" aria-hidden="true" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 jgfuCe">
                       <path d="M15.724 4.22A4.313 4.313 0 0012.192.814a4.269 4.269 0 00-3.622 1.13.837.837 0 01-1.14 0 4.272 4.272 0 00-6.21 5.855l5.916 7.05a1.128 1.128 0 001.727 0l5.916-7.05a4.228 4.228 0 00.945-3.577z"></path>
-                      </svg>
+                    </svg>
                   </div>
                   <p>Liked Songs</p>
                 </a>
@@ -116,12 +112,14 @@ function App() {
                   </svg>
                 </button>
                 <button className="btn-regreso">
-                <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 jgfuCe IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24">
-                  <path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path>
-                </svg>
+                  <svg role="img" height="24" width="24" class="Svg-sc-1bi12j5-0 jgfuCe IYDlXmBmmUKHveMzIPCF" viewBox="0 0 24 24">
+                    <path d="M8.043 2.793a1 1 0 000 1.414L15.836 12l-7.793 7.793a1 1 0 101.414 1.414L18.664 12 9.457 2.793a1 1 0 00-1.414 0z"></path>
+                  </svg>
                 </button>
               </div>
-              <div>{() => {showPlaylist? <p>Favs</p>:<p></p>}}</div>
+              <div>
+                <p></p>
+              </div>
               <div className="btn-top-derecha">
                 <button className="btn-upgrade">Upgrade</button>
                 <button className="btn-user">
@@ -130,7 +128,7 @@ function App() {
                   <svg role="img" height="16" width="16" class="Svg-sc-1bi12j5-0 jgfuCe eAXFT6yvz37fvS1lmt6k" viewBox="0 0 16 16">
                     <path d="M14 6l-6 6-6-6h12z"></path>
                   </svg>
-                  </button>
+                </button>
               </div>
             </div>
             <div className="app-derecha-todo">
@@ -214,7 +212,7 @@ function App() {
                         <p className="opaque">BTS</p>
                       </div>
                     </span>
-                    <div className="opaque">Love Yourself 承 'Her'</div>
+                    <div className="opaque">Love Yourself 承 &apos;Her&apos;</div>
                     <div className="opaque">Jan 13, 2018</div>
                     <div className="verde">{corazon()}</div>
                     <div className="opaque">4:05</div>
@@ -461,7 +459,7 @@ function App() {
               <span aria-hidden="true" class="IconWrapper__Wrapper-sc-16usrgb-0 bxwPwV">
                 <svg role="img" height="16" width="16" viewBox="0 0 16 16" class="Svg-sc-1bi12j5-0 jgfuCe">
                   <path d="M15 15H1v-1.5h14V15zm0-4.5H1V9h14v1.5zm-14-7A2.5 2.5 0 013.5 1h9a2.5 2.5 0 010 5h-9A2.5 2.5 0 011 3.5zm2.5-1a1 1 0 000 2h9a1 1 0 100-2h-9z"></path>
-                  </svg>
+                </svg>
               </span>
             </button>
             <button className="btn-player-control">
